@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Duolingo Simplified to Traditional Chinese",
   "description": "This extension allows users to read Chinese as it written in Taiwan and Hong Kong whilst learning Chinese.",
@@ -11,7 +11,7 @@
    }
  ],
 
-  "browser_action": {
+  "action": {
     "default_icon": "icon.png"
   },
   "icons": {
