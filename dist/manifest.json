@@ -4,21 +4,25 @@
   "name": "Duolingo Simplified to Traditional Chinese",
   "description": "This extension allows users to read Chinese as it written in Taiwan and Hong Kong whilst learning Chinese.",
   "version": "0.6.0",
+  "icons": {
+    "128": "icon.png" 
+   },
+  
+   "action": {
+      "default_icon": "icon.png"
+   },
   "content_scripts": [
    {
-     "matches": ["http://www.duolingo.com/*","https://www.duolingo.com/*"],
-     "js": ["heart.min.js"]
+     "js": [
+        "heart.min.js"
+     ],
+     "matches": [
+        "http://www.duolingo.com/*",
+        "https://www.duolingo.com/*"
+     ]
    }
  ],
-
-  "action": {
-    "default_icon": "icon.png"
-  },
-  "icons": {
-    "128": "icon.png" },
-
   "permissions": [
     "activeTab"
   ]
-
 }
